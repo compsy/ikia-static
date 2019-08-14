@@ -4,29 +4,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Ieder kind is anders</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <style>
     img {
       position: relative;
-      left: 50%;
-      width: 717px;
-      height: 207px;
-      /* Half the width */
-      margin-left: -363px;
-      margin-top: 200px;
+      width: 100%;
     }
-    
+    .img-container {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 800px;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
     body {
       background: #FFFFFF;
+      font-size: 18px;
     }
   </style>
+  <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" />
 </head>
 
 <body>
-  <img src="images/logo.png" alt="Ieder kind is anders"/>
-  <strong>Succes!</strong>
-  <p>Je bent nu ingeschreven. Voor meer informatie, contact <a href="mailto:a.m.reitsema@rug.nl">a.m.reitsema@rug.nl</a></p>
-  </p>
-</form>
+<div class="img-container"><img src="images/logo.png" alt="Ieder kind is anders" /></div>
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <h2>Succes!</h2>
+      <p>Je bent nu ingeschreven. Voor meer informatie, neem contact op met <a
+        href="mailto:a.m.reitsema@rug.nl">Anne Margit</a>.</p>
+    </div>
+  </div>
+  </form>
+</div>
 </body>
 
 </html>
