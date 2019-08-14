@@ -14,28 +14,31 @@
       position: relative;
       width: 100%;
     }
+
     .img-container {
       position: relative;
       margin-left: auto;
       margin-right: auto;
-      max-width: 937px;
-      padding-left: 10%;
-      padding-right: 10%;
+      max-width: 757px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 200px;
     }
+
     body {
       background: #FFFFFF;
       font-size: 18px;
     }
   </style>
-  <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
+  <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
   <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
   <link rel="shortcut icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
   <link rel="shortcut icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" />
 </head>
 
 <body>
-<div class="img-container"><img src="images/logo.png" alt="Ieder kind is anders" /></div>
-<div class="container">
+<div class="img-container">
+  <img src="images/logo.png" alt="Ieder kind is anders" />
   <form name="contact" method="POST" data-netlify="true" action="/ingeschreven.html">
     <div class="row">
       <div class="col s12">
@@ -43,11 +46,11 @@
       </div>
     </div>
     <div class="row">
-      <div class="input-field col s12 m4">
+      <div class="input-field col s12 m6">
         <input id="email" name="email" type="email" class="validate">
         <label for="email">E-mailadres</label>
       </div>
-      <div class="input-field col s12 m4">
+      <div class="input-field col s12 m6">
         <button class="btn waves-effect waves-light" type="submit">Inschrijven
           <i class="material-icons right">send</i>
         </button>
