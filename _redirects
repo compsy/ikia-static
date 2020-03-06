@@ -1,0 +1,7 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://app.ikia.nl/* https://app.iederkindisanders.nl/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://compsy-ikia.netlify.com/* https://app.iederkindisanders.nl/:splat 301!
