@@ -1,4 +1,4 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
 # Redirect domain aliases to primary domain
-https://ikia.nl/* https://iederkindisanders.nl/:splat 301!
+https://nieuwsbrief.ikia.nl/* https://nieuwsbrief.iederkindisanders.nl/:splat 301!
